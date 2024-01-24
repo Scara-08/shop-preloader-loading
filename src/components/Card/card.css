@@ -1,0 +1,55 @@
+.card-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card a{
+    text-decoration: none;
+    color: #252525;
+}
+
+
+
+
+
+
+.card-img:hover{
+    object-fit: scale-down;
+}
+
+.card-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    padding: 10px;
+    border: 1px solid #252525;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-button{
+    background-color: #252525;
+    padding: 5px;
+    color: white;
+    border: 1px solid #252525;
+    cursor: pointer;
+}
+
+.card-button:hover{
+    background-color: white;
+    color: #252525;
+}
+
+.card-button:active{
+    transform: scale(1.12);
+    transition: 0s;
+}
+
+
+
+
+
+
